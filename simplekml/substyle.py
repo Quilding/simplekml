@@ -136,7 +136,7 @@ class LineStyle(ColorStyle):
     @property
     def gxlabelvisibility(self):
         """Whether or not to display a text label."""
-        return self._kml['scale']
+        return self._kml['gx:labelVisibility']
 
     @gxlabelvisibility.setter
     def gxlabelvisibility(self, gxlabelvisibility):
